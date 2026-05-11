@@ -1,0 +1,7 @@
+,production_rate_pct,temperature_C,PM_mg_Nm3,NOx_mg_Nm3,SO2_mg_Nm3,CO_mg_Nm3
+production_rate_pct,1.0,0.77,0.5,0.5,0.31,0.02
+temperature_C,0.77,1.0,0.38,0.63,0.32,0.03
+PM_mg_Nm3,0.5,0.38,1.0,0.35,0.15,0.02
+NOx_mg_Nm3,0.5,0.63,0.35,1.0,0.22,0.0
+SO2_mg_Nm3,0.31,0.32,0.15,0.22,1.0,-0.02
+CO_mg_Nm3,0.02,0.03,0.02,0.0,-0.02,1.0

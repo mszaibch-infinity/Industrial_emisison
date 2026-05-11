@@ -1,0 +1,5 @@
+parameter,limit,mean_value,peak_value,exceedances,compliance_percent,trend,status
+PM,20,16.1,36.5,48,82.2,Decreasing,Critical
+NOx,400,204.2,277.9,0,100.0,Decreasing,Compliant
+SO2,200,100.6,153.3,0,100.0,Decreasing,Compliant
+CO,500,321.8,522.3,3,98.9,Increasing,Action required
