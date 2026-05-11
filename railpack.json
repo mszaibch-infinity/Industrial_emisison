@@ -4,6 +4,6 @@
     "python": "3.12"
   },
   "deploy": {
-    "startCommand": "python diagnosis_script.py && streamlit run process_streamlit.py --server.port $PORT --server.address 0.0.0.0"
+    "startCommand": "streamlit run process_streamlit.py --server.port $PORT --server.address 0.0.0.0"
   }
 }
