@@ -1,13 +1,16 @@
 {
+<<<<<<< HEAD
   "packages": {
     "python": "3.12"
   },
   "start": "streamlit run streamlit_dashboard.py --server.port $PORT --server.address 0.0.0.0"
+=======
   "$schema": "https://schema.railpack.com",
   "packages": {
     "python": "3.12"
   },
   "deploy": {
-    "startCommand": "python diagnosis_script.py && streamlit run streamlit_dashboard.py --server.port $PORT --server.address 0.0.0.0"
+    "startCommand": "python diagnosis_script.py && streamlit run process_streamlit.py --server.port $PORT --server.address 0.0.0.0"
   }
+>>>>>>> a4e68a05953ddf7c47b0a57c900db0c222521139
 }
