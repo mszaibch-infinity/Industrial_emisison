@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "packages": {
+    "python": "3.12"
+  },
+  "deploy": {
+    "startCommand": "python full_process_analysis_project.py && streamlit run process_streamlit.py --server.port $PORT --server.address 0.0.0.0"
+  }
+}
